@@ -1,6 +1,6 @@
 {
   "name": "@asherfoster/eslint-config",
-  "version": "2.0.7",
+  "version": "3.0.0",
   "description": "Asher's fork of UNICEF NZ's code style guidelines",
   "main": "index.js",
   "keywords": [
