@@ -10,7 +10,7 @@ $ npm install
 Bam! You're pretty much done.
 
 To include your changes in any local pages, run `npm link` in this project, and then
-in your other project run `npm link @unicefnz/eslint-config` to point the dependency
+in your other project run `npm link @asherfoster/eslint-config` to point the dependency
 back to your development version.
 
 > Keep in mind that any time you modify dependencies, this link is broken and will

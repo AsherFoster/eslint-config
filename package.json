@@ -1,7 +1,7 @@
 {
-  "name": "@unicefnz/eslint-config",
+  "name": "@asherfoster/eslint-config",
   "version": "2.0.7",
-  "description": "UNICEF NZ Javascript & Typescript code style guidelines",
+  "description": "Asher's fork of UNICEF NZ's code style guidelines",
   "main": "index.js",
   "keywords": [
     "eslint",
@@ -13,31 +13,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unicef-new-zealand/unicef-eslint-config.git"
+    "url": "git+https://github.com/asherfoster/eslint-config.git"
   },
-  "author": "Asher Foster <asher@unicef.org.nz>",
+  "author": "Asher Foster <me@asherfoster.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/unicef-new-zealand/unicef-eslint-config/issues"
+    "url": "https://github.com/asherfoster/eslint-config/issues"
   },
-  "homepage": "https://github.com/unicef-new-zealand/unicef-eslint-config#readme",
+  "homepage": "https://github.com/asherfoster/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^7.5.0",
-    "typescript": "^3.9.7 || ^4.0.0"
+    "eslint": "^8.3.0",
+    "typescript": "^4.0.0"
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.0.6",
-    "@typescript-eslint/eslint-plugin": "^4.28.3",
-    "@typescript-eslint/parser": "^4.28.3",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-airbnb-typescript": "^12.3.1",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint-config-airbnb": "^19.0.1",
+    "eslint-config-airbnb-typescript": "^16.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0"
   },
   "devDependencies": {
-    "eslint": "^7.30.0",
-    "typescript": "^4.3.5"
+    "eslint": "^8.3.0",
+    "typescript": "^4.5.2"
   }
 }

@@ -1,19 +1,22 @@
-# UNICEF NZ Javascript Style Guide
+# @asherfoster/eslint-config
 
-## Installing
-Check out [Installing](/doc/installing.md) for detailed instructions installing the ESLint plugin
+A fork of UNICEF NZ's ESLint config for my personal use.
+
+## Installation
+Check out [Installing](/doc/installing.md) for detailed instructions.
+
 ```shell script
-npm install --save-dev eslint typescript @unicefnz/eslint-config
+npm install --save-dev eslint typescript @asherfoster/eslint-config
 ```
 
 ```js
 // .eslintrc.js
 // This is a workaround for https://github.com/eslint/eslint/issues/3458
-require('@unicefnz/eslint-config/patch');
+require('@asherfoster/eslint-config/patch');
 
 module.exports = {
   extends: [
-    '@unicefnz'
+    '@asherfoster'
   ],
   parserOptions: { tsconfigRootDir: __dirname }
 }

@@ -3,22 +3,22 @@ We use a little eslint hack to make it easy to get setup and running. Start
 with installing eslint, typescript and the config:
 
 ```shell script
-npm install --save-dev eslint typescript @unicefnz/eslint-config
+npm install --save-dev eslint typescript @asherfoster/eslint-config
 ```
 
 > ### Watch out
-> Although this config will lint JS code just fine, it references typescript and
-> therefore depends on it. Make sure to install it yourself!
+> Although this config will lint JS code just fine, it's designed for typescript
+> and has a dependency on it. Make sure to install it yourself!
 
 
 Next, setup your .eslintrc.js with something like this:
 ```js
 // This is a workaround for https://github.com/eslint/eslint/issues/3458
-require('@unicefnz/eslint-config/patch');
+require('@asherfoster/eslint-config/patch');
 
 module.exports = {
   extends: [
-    '@unicefnz'
+    '@asherfoster'
   ],
   parserOptions: { tsconfigRootDir: __dirname }
 }
@@ -33,11 +33,11 @@ Using react? Cool, so are we! All you need to do is extend a different file:
 Example config:
 ```js
 // This is a workaround for https://github.com/eslint/eslint/issues/3458
-require('@unicefnz/eslint-config/patch');
+require('@asherfoster/eslint-config/patch');
 
 module.exports = {
   extends: [
-    '@unicefnz/eslint-config/react'
+    '@asherfoster/eslint-config/react'
   ],
   parserOptions: { tsconfigRootDir: __dirname }
 }
@@ -52,11 +52,11 @@ Make sure to read the [js gotcha](#watch-out).
 
 ```js
 // This is a workaround for https://github.com/eslint/eslint/issues/3458
-require('@unicefnz/eslint-config/patch');
+require('@asherfoster/eslint-config/patch');
 
 module.exports = {
   extends: [
-    '@unicefnz'
+    '@asherfoster'
   ]
 }
 ```
